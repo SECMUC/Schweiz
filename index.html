@@ -682,7 +682,6 @@ function toggleDetail(inc, tr) {
   expandedId = inc.id;
   tr.classList.add("expanded");
 
-  const tags = (inc.tags||[]).map(t=>`<span class="tag-chip">${esc(t)}</span>`).join("");
   const text = inc.fulltext || inc.summary || "Kein Volltext verfügbar.";
 
   const detail = document.createElement("tr");
@@ -695,7 +694,6 @@ function toggleDetail(inc, tr) {
         ${esc(text)}
       </div>
       <div class="detail-meta">
-        ${tags ? `<div class="detail-tags">${tags}</div>` : ""}
         ${inc.url ? `<a class="btn-src" href="${esc(inc.url)}" target="_blank" rel="noopener">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           Zur Quelle
