@@ -299,7 +299,7 @@
       white-space: nowrap;
       min-width: 110px;
     }
-    td.kanton-col { min-width: 60px; }
+    td.kanton-col { min-width: 120px; }
     .kanton-badge {
       font-family: var(--mono);
       font-size: 11px;
@@ -560,7 +560,7 @@ async function loadData() {
 // ── KANTON PILLS ───────────────────────────────
 function buildKantonPills() {
   const counts = {};
-  allIncidents.forEach(i => counts[i.kanton] = (counts[i.kanton]||0)+1);
+  allIncidents.forEach(i => counts[i.kanton_name || i.kanton] = (counts[i.kanton_name || i.kanton]||0)+1);
   const sorted = Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,22);
   const wrap = document.getElementById("kanton-pills");
   wrap.innerHTML =
@@ -583,7 +583,7 @@ function applyAll() {
   const cutoff = activeDays ? new Date(Date.now() - activeDays*86400000) : null;
 
   filtered = allIncidents.filter(inc => {
-    if (activeKanton && inc.kanton !== activeKanton) return false;
+    if (activeKanton && (inc.kanton_name || inc.kanton) !== activeKanton) return false;
     if (cat && !inc.categories?.includes(cat))       return false;
     if (cutoff && new Date(inc.date) < cutoff)        return false;
     if (q) {
@@ -644,7 +644,7 @@ function rowHTML(inc) {
   const src  = (inc.source||"").replace("Kantonspolizei ","Kapo ").replace(" (direkt)","");
   return `
     <td class="date-col">${esc(dateStr)}</td>
-    <td class="kanton-col"><span class="kanton-badge">${esc(inc.kanton)}</span></td>
+    <td class="kanton-col"><span class="kanton-badge">${esc(inc.kanton_name || inc.kanton)}</span></td>
     <td class="title-col"><div class="row-title">${esc(inc.title)}</div></td>
     <td class="cats-col"><div class="cat-badges">${cats}</div></td>
     <td class="source-col">${esc(src)}</td>`;
@@ -661,7 +661,7 @@ function toggleDetail(inc, tr) {
   tr.classList.add("expanded");
 
   const tags = (inc.tags||[]).map(t=>`<span class="tag-chip">${esc(t)}</span>`).join("");
-  const text = inc.summary || "Kein Volltext verfügbar.";
+  const text = inc.fulltext || inc.summary || "Kein Volltext verfügbar.";
 
   const detail = document.createElement("tr");
   detail.id = "detail-" + inc.id;
@@ -724,7 +724,7 @@ function updateMeta() {
 
 // ── EXPORT ─────────────────────────────────────
 function exportCSV() {
-  const cols = ["date","kanton","title","categories","summary","source","url"];
+  const cols = ["date","kanton_name","kanton","title","categories","fulltext","summary","source","url"];
   const rows = [cols.join(";")].concat(
     filtered.map(i => cols.map(c => {
       const v = Array.isArray(i[c]) ? i[c].join("|") : (i[c]||"");
@@ -735,8 +735,8 @@ function exportCSV() {
 }
 
 function exportExcel() {
-  const cols = ["date","kanton","title","categories","summary","source","url"];
-  const headers = ["Datum","Kanton","Titel","Kategorien","Text","Quelle","URL"];
+  const cols = ["date","kanton_name","kanton","title","categories","fulltext","summary","source","url"];
+  const headers = ["Datum","Kanton","Kt.","Titel","Kategorien","Volltext","RSS-Text","Quelle","URL"];
   const data = [headers].concat(
     filtered.map(i => cols.map(c => {
       const v = Array.isArray(i[c]) ? i[c].join(", ") : (i[c]||"");
@@ -745,7 +745,7 @@ function exportExcel() {
   );
   const ws = XLSX.utils.aoa_to_sheet(data);
   // Spaltenbreiten
-  ws['!cols'] = [14,8,50,30,80,20,40].map(w=>({wch:w}));
+  ws['!cols'] = [20,8,6,50,30,80,40,20,40].map(w=>({wch:w}));
   // Header fett + Hintergrund
   const hdrFill = {fgColor:{rgb:"C8102E"}};
   const hdrFont = {bold:true,color:{rgb:"FFFFFF"}};
