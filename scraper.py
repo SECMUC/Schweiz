@@ -104,6 +104,43 @@ def clean_html(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def extract_location(title: str, text: str = "") -> str:
+    """Extrahiert Ort/Stadtteil aus Titel und Text."""
+    combined = f"{title} {text}"
+
+    # Muster 1: "Ort KT:" — z.B. "Wil SG:", "Emmenbrücke LU:"
+    m = re.match(
+        r'^((?:St\.\s?|Bad\s|La\s|Le\s)?[A-Z\xc0-\xdc][a-z\xe0-\xfc\xc0-\xdcA-Z\.\xe4\xf6\xfc\xc4\xd6\xdc]+'
+        r'(?:[\-\s][A-Z\xc0-\xdc][a-z\xe0-\xfc\xc0-\xdcA-Z\.\xe4\xf6\xfc\xc4\xd6\xdc]+)?'
+        r'(?:\s(?:bei|am|im|an)\s[A-Z\xc0-\xdc][a-z\xe0-\xfca-z\xe4\xf6\xfc]+)?)'
+        r'\s+[A-Z]{2}:', title)
+    if m:
+        return m.group(1).strip()
+
+    # Muster 2: "Ort:" / "Ort-Stadtteil:"
+    m = re.match(
+        r'^((?:St\.\s?|Bad\s|La\s|Le\s)?[A-Z\xc0-\xdc][a-z\xe0-\xfcA-Z\.\xe4\xf6\xfc\xc4\xd6\xdc]+'
+        r'(?:[\-\s][A-Z\xc0-\xdc][a-z\xe0-\xfcA-Z\.\xe4\xf6\xfc\xc4\xd6\xdc]+)*'
+        r'(?:\s(?:bei|am|an)\s[A-Z\xc0-\xdc][a-z\xe0-\xfc\xe4\xf6\xfc]+)?):', title)
+    if m:
+        loc = m.group(1).strip()
+        if not re.match(r'^[A-Z]{2}$', loc) and len(loc) > 2:
+            return loc
+
+    # Muster 3: "in Ort" / "bei Ort" im Text
+    SKIP = {"der","einem","einer","dem","den","Nacht","Tag","Rahmen","Folge","einem"}
+    for pat in [
+        r'\bin\s+((?:St\.\s?|Bad\s)?[A-Z\xc0-\xdc\xc4\xd6][a-z\xe0-\xfc\xe4\xf6\xfc]+(?:-[A-Z\xc0-\xdc][a-z\xe0-\xfc\xe4\xf6\xfc]+)?)\b',
+        r'\bbei\s+((?:St\.\s?|Bad\s)?[A-Z\xc0-\xdc\xc4\xd6][a-z\xe0-\xfc\xe4\xf6\xfc]{3,})\b',
+    ]:
+        for hit in re.finditer(pat, combined):
+            cand = hit.group(1).strip()
+            if cand not in SKIP:
+                return cand
+
+    return ""
+
+
 def detect_categories(text: str) -> list:
     t = text.lower()
     found = [cat for cat, pat in CATEGORIES.items() if re.search(pat, t)]
@@ -211,11 +248,12 @@ def parse_feed(xml_text: str, label: str) -> list:
             "title":        title,
             "url":          link,
             "date":         parse_date(pubdate),
-            "summary":      text,       # RSS-Text (wird später durch Volltext ersetzt)
-            "fulltext":     "",         # wird separat gefetcht
+            "summary":      text,
+            "fulltext":     "",
             "categories":   detect_categories(combined),
             "kanton":       kanton_kuerzel,
             "kanton_name":  KANTON_NAMEN.get(kanton_kuerzel, kanton_kuerzel),
+            "location":     extract_location(title, text),
             "tags":         tags,
             "source":       label,
             "scraped_at":   datetime.datetime.now().isoformat(),
@@ -233,8 +271,11 @@ def enrich_with_fulltext(incidents: list, existing_map: dict) -> list:
         fulltext = fetch_fulltext(inc["url"])
         if fulltext:
             inc["fulltext"] = fulltext
+            # Location mit Volltext nachschärfen falls noch leer
+            if not inc.get("location"):
+                inc["location"] = extract_location(inc["title"], fulltext)
         else:
-            inc["fulltext"] = inc["summary"]  # Fallback auf RSS-Text
+            inc["fulltext"] = inc["summary"]
         if i > 0 and i % 5 == 0:
             time.sleep(1)  # kurze Pause, Server schonen
     return incidents
