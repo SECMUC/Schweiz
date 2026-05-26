@@ -167,16 +167,16 @@ def parse_date(date_str: str) -> str:
     return datetime.datetime.now().isoformat()
 
 
-def fetch_url(url: str, accept_html: bool = False) -> str | None:
+def fetch_url(url: str, accept_html: bool = False, timeout: int = 12) -> str | None:
     try:
         headers = dict(HEADERS)
         if accept_html:
             headers["Accept"] = "text/html,application/xhtml+xml,*/*"
         req = Request(url, headers=headers)
-        with urlopen(req, timeout=15) as r:
+        with urlopen(req, timeout=timeout) as r:
             return r.read().decode("utf-8", errors="replace")
-    except URLError as e:
-        print(f"  ⚠️  {url}: {e}")
+    except Exception as e:
+        print(f"  ⚠️  {url}: {type(e).__name__}: {e}")
         return None
 
 
@@ -265,19 +265,29 @@ def enrich_with_fulltext(incidents: list, existing_map: dict) -> list:
     """Holt Volltext für neue Einträge (die noch keinen haben)."""
     to_fetch = [i for i in incidents if not existing_map.get(i["id"], {}).get("fulltext")]
     print(f"   Volltext-Fetch für {len(to_fetch)} neue Artikel…")
+    ok, skip = 0, 0
     for i, inc in enumerate(to_fetch):
         if not inc["url"]:
+            inc["fulltext"] = inc.get("summary", "")
             continue
-        fulltext = fetch_fulltext(inc["url"])
-        if fulltext:
-            inc["fulltext"] = fulltext
-            # Location mit Volltext nachschärfen falls noch leer
-            if not inc.get("location"):
-                inc["location"] = extract_location(inc["title"], fulltext)
-        else:
-            inc["fulltext"] = inc["summary"]
+        try:
+            fulltext = fetch_fulltext(inc["url"])
+            if fulltext:
+                inc["fulltext"] = fulltext
+                if not inc.get("location"):
+                    inc["location"] = extract_location(inc["title"], fulltext)
+                ok += 1
+            else:
+                inc["fulltext"] = inc.get("summary", "")
+                skip += 1
+        except Exception as e:
+            print(f"  ⚠️  Volltext übersprungen ({inc['url'][:60]}): {e}")
+            inc["fulltext"] = inc.get("summary", "")
+            skip += 1
+        # Kurze Pause alle 5 Artikel
         if i > 0 and i % 5 == 0:
-            time.sleep(1)  # kurze Pause, Server schonen
+            time.sleep(1)
+    print(f"   Volltext: {ok} OK, {skip} übersprungen")
     return incidents
 
 
