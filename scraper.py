@@ -144,32 +144,46 @@ def fetch_url(url: str, accept_html: bool = False) -> str | None:
 
 
 def fetch_fulltext(url: str) -> str:
-    """Ruft die Artikelseite auf und extrahiert den Haupttext."""
+    """Ruft die Artikelseite auf und extrahiert den Volltext absatzweise."""
     if not url:
         return ""
     html = fetch_url(url, accept_html=True)
     if not html:
         return ""
 
-    # Versuche den Artikelinhalt zu extrahieren (polizeinews.ch WordPress)
-    # Zuerst: entry-content / article-content Block
-    for pattern in [
-        r'<div[^>]*class="[^"]*entry-content[^"]*"[^>]*>(.*?)</div>\s*(?:<div|</article)',
-        r'<div[^>]*class="[^"]*post-content[^"]*"[^>]*>(.*?)</div>\s*(?:<div|</article)',
-        r'<article[^>]*>(.*?)</article>',
-    ]:
-        m = re.search(pattern, html, re.DOTALL | re.IGNORECASE)
-        if m:
-            raw = m.group(1)
-            # Entferne Bilder, Scripts, Links-Wrapper
-            raw = re.sub(r'<figure[^>]*>.*?</figure>', '', raw, flags=re.DOTALL)
-            raw = re.sub(r'<script[^>]*>.*?</script>', '', raw, flags=re.DOTALL)
-            raw = re.sub(r'<style[^>]*>.*?</style>', '', raw, flags=re.DOTALL)
-            text = clean_html(raw)
-            if len(text) > 100:
-                return text
+    # Störende Blöcke entfernen
+    for tag in ["script", "style", "nav", "footer", "header", "aside",
+                "form", "figure", "figcaption", "noscript"]:
+        html = re.sub(rf'<{tag}[^>]*>.*?</{tag}>', '', html, flags=re.DOTALL | re.IGNORECASE)
 
-    return ""
+    # entry-content Block (WordPress Standard)
+    block = ""
+    m = re.search(
+        r'class="[^"]*entry-content[^"]*"[^>]*>(.*?)(?=<div[^>]*class="[^"]*(?:sharedaddy|post-footer|related|comments)[^"]*"|</article>)',
+        html, re.DOTALL | re.IGNORECASE)
+    if m:
+        block = m.group(1)
+    else:
+        m2 = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL | re.IGNORECASE)
+        if m2:
+            block = m2.group(1)
+
+    if not block:
+        return ""
+
+    # Alle <p>-Absätze extrahieren
+    paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', block, re.DOTALL | re.IGNORECASE)
+    texts = []
+    for p in paragraphs:
+        t = clean_html(p)
+        if len(t) > 30 and not re.search(r'^\d{2}\.\d{2}\.\d{2}|Redaktion|Cookie|Datenschutz|Abonnieren', t):
+            texts.append(t)
+
+    result = "\n\n".join(texts)
+    if len(result) > 80:
+        return result
+
+    return clean_html(block)[:3000]
 
 
 def parse_feed(xml_text: str, label: str) -> list:
