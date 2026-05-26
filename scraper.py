@@ -153,7 +153,7 @@ def parse_feed(xml_text: str, label: str) -> list:
             "title":      title,
             "url":        link,
             "date":       parse_date(pubdate),
-            "summary":    text[:500],
+            "summary":    text,
             "categories": detect_categories(combined),
             "kanton":     detect_kanton(combined),
             "tags":       tags,
