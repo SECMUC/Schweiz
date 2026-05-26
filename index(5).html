@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polizei-Monitor Schweiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg:       #0d1117;
+      --surface:  #161b22;
+      --border:   #30363d;
+      --accent:   #e63b3b;   /* Schweizer Rot */
+      --accent2:  #f0883e;
+      --text:     #c9d1d9;
+      --muted:    #6e7681;
+      --green:    #3fb950;
+      --mono:     "IBM Plex Mono", monospace;
+      --sans:     "IBM Plex Sans", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 14px;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .cross {
+      width: 32px; height: 32px;
+      background: var(--accent);
+      border-radius: 4px;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    h1 {
+      font-family: var(--mono);
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    h1 span { color: var(--muted); font-weight: 400; }
+    .stats {
+      margin-left: auto;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: right;
+    }
+    #live-dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+      margin-right: 5px;
+      animation: blink 2s ease-in-out infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+    /* ── TOOLBAR ── */
+    .toolbar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    input[type=text] {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-family: var(--mono);
+      font-size: 12px;
+      width: 220px;
+      outline: none;
+    }
+    input[type=text]:focus { border-color: var(--accent); }
+    select {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-family: var(--mono);
+      font-size: 12px;
+      outline: none;
+      cursor: pointer;
+    }
+    select:focus { border-color: var(--accent); }
+    .btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-family: var(--mono);
+      font-size: 12px;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .btn:hover { opacity: .85; }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    /* ── KANTON PILLS ── */
+    .kanton-bar {
+      padding: 8px 20px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .pill {
+      font-family: var(--mono);
+      font-size: 11px;
+      padding: 3px 9px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all .15s;
+      user-select: none;
+    }
+    .pill:hover, .pill.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .pill.active { font-weight: 600; }
+
+    /* ── MAIN GRID ── */
+    main {
+      padding: 16px 20px;
+      max-width: 1400px;
+    }
+
+    /* ── CARD ── */
+    .incident-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: border-color .15s, transform .1s;
+      animation: fadeIn .25s ease both;
+    }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .card-title {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 1.4;
+      flex: 1;
+    }
+    .kanton-badge {
+      font-family: var(--mono);
+      font-size: 11px;
+      background: var(--accent);
+      color: #fff;
+      padding: 2px 7px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    .card-summary {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .cats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .cat-badge {
+      font-family: var(--mono);
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .cat-badge.Unfall    { border-color:#f0883e; color:#f0883e }
+    .cat-badge.Einbruch  { border-color:#d2a8ff; color:#d2a8ff }
+    .cat-badge.Gewalt    { border-color:#ff7b72; color:#ff7b72 }
+    .cat-badge.Brand     { border-color:#ffa657; color:#ffa657 }
+    .cat-badge.Drogen    { border-color:#3fb950; color:#3fb950 }
+    .cat-badge.Betrug    { border-color:#58a6ff; color:#58a6ff }
+    .cat-badge.Vermisst  { border-color:#e3b341; color:#e3b341 }
+    .cat-badge.Todesfälle{ border-color:#e63b3b; color:#e63b3b }
+    .cat-badge.Verhaftung{ border-color:#7ee787; color:#7ee787 }
+
+    .card-date {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--muted);
+    }
+    .card-link {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--accent2);
+      text-decoration: none;
+      align-self: flex-end;
+    }
+    .card-link:hover { text-decoration: underline; }
+
+    /* ── LOAD MORE ── */
+    #load-more-btn {
+      display: block;
+      margin: 24px auto 0;
+      padding: 10px 32px;
+    }
+
+    /* ── EMPTY ── */
+    #empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      font-family: var(--mono);
+      display: none;
+    }
+
+    /* ── EXCEL EXPORT ── */
+    .export-row {
+      display: flex;
+      gap: 8px;
+      margin-left: auto;
+    }
+
+    /* ── LOADING SPINNER ── */
+    #loading {
+      text-align: center;
+      padding: 60px;
+      font-family: var(--mono);
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .incident-grid { grid-template-columns: 1fr; }
+      input[type=text] { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="cross">✛</div>
+  <div>
+    <h1>Polizei-Monitor <span>/ Schweiz</span></h1>
+  </div>
+  <div class="stats">
+    <span id="live-dot"></span>
+    <span id="total-count">Lade…</span><br>
+    <span id="last-updated"></span>
+  </div>
+</header>
+
+<div class="toolbar">
+  <input type="text" id="search" placeholder="Suche: Zürich, Unfall, Raub…" />
+  <select id="cat-filter">
+    <option value="">Alle Kategorien</option>
+    <option>Unfall</option>
+    <option>Einbruch</option>
+    <option>Vermisst</option>
+    <option>Drogen</option>
+    <option>Betrug</option>
+    <option>Brand</option>
+    <option>Gewalt</option>
+    <option>Verkehr</option>
+    <option>Todesfälle</option>
+    <option>Verhaftung</option>
+    <option>Sonstiges</option>
+  </select>
+  <select id="date-filter">
+    <option value="">Alle Zeiträume</option>
+    <option value="1">Heute</option>
+    <option value="7">Letzte 7 Tage</option>
+    <option value="30">Letzter Monat</option>
+  </select>
+  <div class="export-row">
+    <button class="btn btn-ghost" onclick="exportCSV()">⬇ CSV</button>
+    <button class="btn btn-ghost" onclick="exportJSON()">⬇ JSON</button>
+  </div>
+</div>
+
+<div class="kanton-bar" id="kanton-bar">
+  <!-- dynamisch befüllt -->
+</div>
+
+<main>
+  <div id="loading">⏳ Lade incidents.json…</div>
+  <div class="incident-grid" id="grid"></div>
+  <div id="empty">Keine Treffer für diese Filter.</div>
+  <button class="btn" id="load-more-btn" style="display:none" onclick="loadMore()">Weitere laden</button>
+</main>
+
+<script>
+// ── STATE ──────────────────────────────────────
+let allIncidents = [];
+let filtered     = [];
+let page         = 0;
+const PAGE_SIZE  = 30;
+let activeKanton = "";
+
+// ── KANTONE (alle 26 CH) ────────────────────────
+const KANTONE = ["ZH","BE","VD","AG","SG","GE","LU","TI","VS","BL",
+                 "SO","GR","BS","TG","FR","SZ","AR","ZG","JU","SH",
+                 "GL","NW","OW","UR","AI","NE","CH","FL"];
+
+// ── LADEN ──────────────────────────────────────
+async function loadData() {
+  try {
+    const res  = await fetch("incidents.json");
+    allIncidents = await res.json();
+    document.getElementById("loading").style.display = "none";
+    buildKantonBar();
+    applyFilters();
+    updateStats();
+  } catch(e) {
+    document.getElementById("loading").innerHTML =
+      "⚠️ incidents.json nicht gefunden. Scraper noch nicht ausgeführt?";
+  }
+}
+
+// ── KANTON-BAR ─────────────────────────────────
+function buildKantonBar() {
+  const bar = document.getElementById("kanton-bar");
+  const counts = {};
+  allIncidents.forEach(i => counts[i.kanton] = (counts[i.kanton]||0)+1);
+
+  const sorted = Object.entries(counts)
+    .sort((a,b) => b[1]-a[1])
+    .slice(0, 20);
+
+  bar.innerHTML = `<span class="pill ${!activeKanton?'active':''}" onclick="setKanton('')">Alle</span>` +
+    sorted.map(([k,c]) =>
+      `<span class="pill ${activeKanton===k?'active':''}" onclick="setKanton('${k}')">${k} <small>(${c})</small></span>`
+    ).join("");
+}
+
+function setKanton(k) {
+  activeKanton = k;
+  buildKantonBar();
+  applyFilters();
+}
+
+// ── FILTER ─────────────────────────────────────
+function applyFilters() {
+  const q     = document.getElementById("search").value.toLowerCase();
+  const cat   = document.getElementById("cat-filter").value;
+  const days  = parseInt(document.getElementById("date-filter").value) || 0;
+  const cutoff = days ? new Date(Date.now() - days*86400000) : null;
+
+  filtered = allIncidents.filter(inc => {
+    if (activeKanton && inc.kanton !== activeKanton) return false;
+    if (cat && !inc.categories.includes(cat))        return false;
+    if (cutoff && new Date(inc.date) < cutoff)        return false;
+    if (q) {
+      const blob = `${inc.title} ${inc.summary} ${inc.kanton} ${inc.tags?.join(" ")}`.toLowerCase();
+      if (!blob.includes(q)) return false;
+    }
+    return true;
+  });
+
+  page = 0;
+  renderPage(true);
+  document.getElementById("total-count").textContent =
+    `${filtered.length} / ${allIncidents.length} Einträge`;
+}
+
+// ── RENDER ─────────────────────────────────────
+function renderPage(reset = false) {
+  const grid = document.getElementById("grid");
+  if (reset) grid.innerHTML = "";
+
+  const slice = filtered.slice(page * PAGE_SIZE, (page+1) * PAGE_SIZE);
+  if (reset && slice.length === 0) {
+    document.getElementById("empty").style.display = "block";
+    document.getElementById("load-more-btn").style.display = "none";
+    return;
+  }
+  document.getElementById("empty").style.display = "none";
+
+  slice.forEach(inc => grid.insertAdjacentHTML("beforeend", cardHTML(inc)));
+  document.getElementById("load-more-btn").style.display =
+    (page+1)*PAGE_SIZE < filtered.length ? "block" : "none";
+}
+
+function loadMore() {
+  page++;
+  renderPage(false);
+}
+
+function cardHTML(inc) {
+  const date = new Date(inc.date).toLocaleString("de-CH",
+    {day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});
+  const cats = (inc.categories||[]).map(c =>
+    `<span class="cat-badge ${c}">${c}</span>`).join("");
+  const summary = inc.summary
+    ? `<div class="card-summary">${escHtml(inc.summary)}</div>` : "";
+
+  return `
+  <div class="card">
+    <div class="card-top">
+      <div class="card-title">${escHtml(inc.title)}</div>
+      <span class="kanton-badge">${escHtml(inc.kanton)}</span>
+    </div>
+    ${summary}
+    <div class="card-meta">
+      <div class="cats">${cats}</div>
+      <span class="card-date">${date}</span>
+    </div>
+    ${inc.url ? `<a class="card-link" href="${escHtml(inc.url)}" target="_blank" rel="noopener">→ Originalquelle</a>` : ""}
+  </div>`;
+}
+
+function escHtml(s="") {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+          .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+
+// ── STATS ──────────────────────────────────────
+function updateStats() {
+  if (!allIncidents.length) return;
+  const last = new Date(allIncidents[0].scraped_at || allIncidents[0].date);
+  document.getElementById("last-updated").textContent =
+    "Stand: " + last.toLocaleString("de-CH");
+  document.getElementById("total-count").textContent =
+    `${allIncidents.length} Einträge`;
+}
+
+// ── EXPORT ─────────────────────────────────────
+function exportCSV() {
+  const cols = ["id","date","kanton","categories","title","summary","url","source"];
+  const rows = [cols.join(";")].concat(
+    filtered.map(i => cols.map(c => {
+      const v = Array.isArray(i[c]) ? i[c].join("|") : (i[c]||"");
+      return `"${String(v).replace(/"/g,'""')}"`;
+    }).join(";"))
+  );
+  download("polizei-ch.csv", rows.join("\n"), "text/csv");
+}
+
+function exportJSON() {
+  download("polizei-ch.json", JSON.stringify(filtered, null, 2), "application/json");
+}
+
+function download(name, content, type) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob(["\uFEFF"+content], {type}));
+  a.download = name;
+  a.click();
+}
+
+// ── EVENTS ─────────────────────────────────────
+document.getElementById("search").addEventListener("input", applyFilters);
+document.getElementById("cat-filter").addEventListener("change", applyFilters);
+document.getElementById("date-filter").addEventListener("change", applyFilters);
+
+// ── START ───────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
