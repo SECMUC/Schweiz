@@ -1,7 +1,7 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
 **Datum:** 2026-05-30  
 **Neue Einträge:** 373  
-**Gesamt im Archiv:** 542
+**Gesamt im Archiv:** 543
 
 ### Kantone (heutiger Lauf)
 - **Zürich**: 45
