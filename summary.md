@@ -1,11 +1,11 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
 **Datum:** 2026-06-11  
-**Neue Einträge:** 360  
-**Gesamt im Archiv:** 925
+**Neue Einträge:** 361  
+**Gesamt im Archiv:** 926
 
 ### Kantone (heutiger Lauf)
+- **Zürich**: 42
 - **St. Gallen**: 42
-- **Zürich**: 41
 - **Bern**: 40
 - **Aargau**: 38
 - **Luzern**: 34
