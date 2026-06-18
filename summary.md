@@ -1,7 +1,7 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
 **Datum:** 2026-06-18  
-**Neue Einträge:** 366  
-**Gesamt im Archiv:** 1161
+**Neue Einträge:** 365  
+**Gesamt im Archiv:** 1162
 
 ### Kantone (heutiger Lauf)
 - **Zürich**: 45
@@ -15,8 +15,8 @@
 - **Schweiz**: 30
 - **Basel-Stadt**: 18
 - **Glarus**: 4
-- **Genf**: 4
 - **Zug**: 4
+- **Genf**: 3
 - **Jura**: 3
 - **Graubünden**: 2
 - **Wallis**: 2
