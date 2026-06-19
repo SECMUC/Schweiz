@@ -1,5 +1,34 @@
 [
   {
+    "id": "2bb1d2f9530e",
+    "title": "Nidwalden/Obwalden: Behörden warnen vor erheblicher Waldbrandgefahr",
+    "url": "https://www.polizeinews.ch/2026/06/19/nidwalden-obwalden-behoerden-warnen-vor-erheblicher-waldbrandgefahr/",
+    "date": "2026-06-19T16:32:35+00:00",
+    "summary": "",
+    "fulltext": "Aufgrund der aktuellen Wetterlage beurteilen die zuständigen Behörden die Waldbrandgefahr in den Kantonen Obwalden und Nidwalden als erheblich (Stufe 3 von 5).\n\nDie Bevölkerung wird aufgefordert, das Entfachen von Feuer im Wald und in Waldesnähe zu unterlassen.\n\nSeit Beginn der Vegetationsperiode fiel im Vergleich zu anderen Jahren weniger Niederschlag. Gleichzeitig sorgen die anhaltende Hitzewelle, viel Sonnenschein, hohe Temperaturen und sehr trockene Luft für eine rasche Austrocknung der Vegetation.\n\nZusätzliche Winde verstärken die Gefahr von Bränden im Wald und im Offenland.\n\nDie Behörden weisen darauf hin, dass bereits weggeworfene Raucherwaren oder Funken eines Grillfeuers insbesondere an sonnigen Stellen Brände auslösen können.\n\nFolgende Verhaltensregeln sind zu beachten:\n\nWeitere Informationen zur aktuellen Lage sind unter www.naturgefahren.ch und www.waldbrandgefahr.ch verfügbar.\n\nQuelle: Feuerwehrinspektorat Ob- und Nidwalden Bildquelle: Symbolbild © rospoint/Shutterstock.com",
+    "categories": [
+      "Brand"
+    ],
+    "kanton": "NW",
+    "kanton_name": "Nidwalden",
+    "location": "Waldesnähe",
+    "tags": [
+      "Brände",
+      "Nidwalden",
+      "Obwalden",
+      "polizei.news",
+      "Polizeinews",
+      "Prävention",
+      "Regionen",
+      "Schweiz",
+      "Stadt Sarnen",
+      "Stans",
+      "Waldbrände"
+    ],
+    "source": "Schweiz (alle Kantone)",
+    "scraped_at": "2026-06-19T19:57:17.599498"
+  },
+  {
     "id": "d1a2dc8107e4",
     "title": "Gränichen AG: 73-jähriger Wanderer spurlos verschwunden – Polizei sucht Zeugen",
     "url": "https://www.polizeinews.ch/2026/06/19/graenichen-ag-73-jaehriger-wanderer-spurlos-verschwunden-polizei-sucht-zeugen/",
@@ -26,7 +55,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.463007"
+    "scraped_at": "2026-06-19T19:57:17.599631"
   },
   {
     "id": "05bb940edd6d",
@@ -55,7 +84,7 @@
       "Verbrechen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.463111"
+    "scraped_at": "2026-06-19T19:57:17.599703"
   },
   {
     "id": "11061cb84199",
@@ -85,7 +114,7 @@
       "Verbrechen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.463945"
+    "scraped_at": "2026-06-19T19:57:17.599803"
   },
   {
     "id": "323d6ae6d30f",
@@ -104,7 +133,7 @@
       "Publireportagen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.464813"
+    "scraped_at": "2026-06-19T19:57:17.600155"
   },
   {
     "id": "0bbaffb44a2b",
@@ -138,7 +167,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.464914"
+    "scraped_at": "2026-06-19T19:57:17.600240"
   },
   {
     "id": "31f6e05a7bca",
@@ -152,7 +181,7 @@
     ],
     "kanton": "CH",
     "kanton_name": "Schweiz",
-    "location": "Nendeln",
+    "location": "",
     "tags": [
       "Autounfälle",
       "Liechtenstein",
@@ -163,7 +192,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465381"
+    "scraped_at": "2026-06-19T19:57:17.600351"
   },
   {
     "id": "0977427a0b54",
@@ -200,7 +229,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465499"
+    "scraped_at": "2026-06-19T19:57:17.600440"
   },
   {
     "id": "d25998ac8f66",
@@ -214,7 +243,7 @@
     ],
     "kanton": "BE",
     "kanton_name": "Bern",
-    "location": "Belp",
+    "location": "",
     "tags": [
       "Belp",
       "Bern",
@@ -231,7 +260,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465575"
+    "scraped_at": "2026-06-19T19:57:17.600500"
   },
   {
     "id": "fe0e55adece7",
@@ -264,7 +293,7 @@
       "Verbrechen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465642"
+    "scraped_at": "2026-06-19T19:57:17.600553"
   },
   {
     "id": "7d5b82823530",
@@ -292,7 +321,7 @@
       "Unfälle"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465739"
+    "scraped_at": "2026-06-19T19:57:17.600694"
   },
   {
     "id": "4506d2011f9a",
@@ -323,7 +352,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465839"
+    "scraped_at": "2026-06-19T19:57:17.600791"
   },
   {
     "id": "d74a534e46e6",
@@ -354,7 +383,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.465941"
+    "scraped_at": "2026-06-19T19:57:17.600881"
   },
   {
     "id": "e8224eee79b0",
@@ -383,7 +412,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466023"
+    "scraped_at": "2026-06-19T19:57:17.600949"
   },
   {
     "id": "4b3729281714",
@@ -412,7 +441,7 @@
       "Schweiz"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466100"
+    "scraped_at": "2026-06-19T19:57:17.601015"
   },
   {
     "id": "9a29da2d6e6d",
@@ -426,7 +455,7 @@
     ],
     "kanton": "CH",
     "kanton_name": "Schweiz",
-    "location": "Sicht",
+    "location": "",
     "tags": [
       "+Flächendeckend-CH",
       "Nidwalden",
@@ -438,7 +467,7 @@
       "Uri"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466189"
+    "scraped_at": "2026-06-19T19:57:17.601091"
   },
   {
     "id": "25bf83907abd",
@@ -452,12 +481,12 @@
     ],
     "kanton": "AG",
     "kanton_name": "Aargau",
-    "location": "Aarau",
+    "location": "",
     "tags": [
       "Publireportagen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466265"
+    "scraped_at": "2026-06-19T19:57:17.601159"
   },
   {
     "id": "9dc0d6160330",
@@ -493,7 +522,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466369"
+    "scraped_at": "2026-06-19T19:57:17.601223"
   },
   {
     "id": "40b31fc29bdf",
@@ -518,7 +547,7 @@
       "Thurgau"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466457"
+    "scraped_at": "2026-06-19T19:57:17.601296"
   },
   {
     "id": "711e597a4a55",
@@ -545,7 +574,7 @@
       "Verbrechen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466542"
+    "scraped_at": "2026-06-19T19:57:17.601365"
   },
   {
     "id": "ba15b0be2901",
@@ -576,7 +605,7 @@
       "Stadtpolizei"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466621"
+    "scraped_at": "2026-06-19T19:57:17.601431"
   },
   {
     "id": "eea62e692bbd",
@@ -606,7 +635,7 @@
       "Umweltverschmutzung"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466703"
+    "scraped_at": "2026-06-19T19:57:17.601498"
   },
   {
     "id": "07ef06ae1d8f",
@@ -639,7 +668,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466788"
+    "scraped_at": "2026-06-19T19:57:17.601572"
   },
   {
     "id": "970001215de1",
@@ -668,7 +697,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466861"
+    "scraped_at": "2026-06-19T19:57:17.601649"
   },
   {
     "id": "878783dfd639",
@@ -703,7 +732,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.466942"
+    "scraped_at": "2026-06-19T19:57:17.601723"
   },
   {
     "id": "4d3eeb88e477",
@@ -732,7 +761,7 @@
       "Thurgau"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467038"
+    "scraped_at": "2026-06-19T19:57:17.601805"
   },
   {
     "id": "2edf858f925b",
@@ -767,7 +796,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467102"
+    "scraped_at": "2026-06-19T19:57:17.601859"
   },
   {
     "id": "ad496551b04b",
@@ -796,7 +825,7 @@
       "Thurgau"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467197"
+    "scraped_at": "2026-06-19T19:57:17.601943"
   },
   {
     "id": "1ff3658a4a26",
@@ -831,7 +860,7 @@
       "Spital"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467268"
+    "scraped_at": "2026-06-19T19:57:17.602001"
   },
   {
     "id": "747a11a8aeeb",
@@ -864,7 +893,7 @@
       "Zürich"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467353"
+    "scraped_at": "2026-06-19T19:57:17.602048"
   },
   {
     "id": "ab34869c257a",
@@ -887,7 +916,7 @@
       "Wetter"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467485"
+    "scraped_at": "2026-06-19T19:57:17.602164"
   },
   {
     "id": "6f6d1362929f",
@@ -906,7 +935,7 @@
       "Publireportagen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467546"
+    "scraped_at": "2026-06-19T19:57:17.602213"
   },
   {
     "id": "0c89c26b016e",
@@ -946,7 +975,7 @@
       "Zürich"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467606"
+    "scraped_at": "2026-06-19T19:57:17.602262"
   },
   {
     "id": "0347a43110a7",
@@ -982,7 +1011,7 @@
       "Unfälle"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467719"
+    "scraped_at": "2026-06-19T19:57:17.602358"
   },
   {
     "id": "9c0c813bda1a",
@@ -1013,7 +1042,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467801"
+    "scraped_at": "2026-06-19T19:57:17.602430"
   },
   {
     "id": "c9128846782e",
@@ -1042,7 +1071,7 @@
       "Verbrechen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467880"
+    "scraped_at": "2026-06-19T19:57:17.602498"
   },
   {
     "id": "54386d781c4c",
@@ -1070,7 +1099,7 @@
       "Zürich"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.467934"
+    "scraped_at": "2026-06-19T19:57:17.602541"
   },
   {
     "id": "acdba4d184db",
@@ -1105,7 +1134,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468029"
+    "scraped_at": "2026-06-19T19:57:17.602637"
   },
   {
     "id": "98feb3841423",
@@ -1133,7 +1162,7 @@
       "Solothurn"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468097"
+    "scraped_at": "2026-06-19T19:57:17.602694"
   },
   {
     "id": "ae80389685bc",
@@ -1162,7 +1191,7 @@
       "Zug"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468183"
+    "scraped_at": "2026-06-19T19:57:17.602768"
   },
   {
     "id": "ba9a4c0e5144",
@@ -1188,7 +1217,7 @@
       "Zug"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468276"
+    "scraped_at": "2026-06-19T19:57:17.602847"
   },
   {
     "id": "71a30fdce02e",
@@ -1214,7 +1243,7 @@
       "Zug"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468392"
+    "scraped_at": "2026-06-19T19:57:17.602926"
   },
   {
     "id": "457073558f09",
@@ -1247,7 +1276,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468497"
+    "scraped_at": "2026-06-19T19:57:17.603017"
   },
   {
     "id": "4bfb21411d09",
@@ -1281,7 +1310,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468565"
+    "scraped_at": "2026-06-19T19:57:17.603072"
   },
   {
     "id": "d8640a5464be",
@@ -1315,7 +1344,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468666"
+    "scraped_at": "2026-06-19T19:57:17.603158"
   },
   {
     "id": "5434885e86c8",
@@ -1349,7 +1378,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468758"
+    "scraped_at": "2026-06-19T19:57:17.603235"
   },
   {
     "id": "8c38821b88fe",
@@ -1401,7 +1430,7 @@
       "Zürich"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468868"
+    "scraped_at": "2026-06-19T19:57:17.603332"
   },
   {
     "id": "20e2a974ce33",
@@ -1434,7 +1463,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Schweiz (alle Kantone)",
-    "scraped_at": "2026-06-19T15:34:57.468935"
+    "scraped_at": "2026-06-19T19:57:17.603388"
   },
   {
     "id": "97d3ff47b82c",
@@ -1580,7 +1609,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783133"
+    "scraped_at": "2026-06-19T19:57:19.485387"
   },
   {
     "id": "4802c49bec6b",
@@ -1680,7 +1709,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550557"
+    "scraped_at": "2026-06-19T19:57:18.437984"
   },
   {
     "id": "bda9aa076c03",
@@ -1709,7 +1738,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550619"
+    "scraped_at": "2026-06-19T19:57:18.438035"
   },
   {
     "id": "a920df4fa904",
@@ -1808,7 +1837,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.880874"
+    "scraped_at": "2026-06-19T19:57:22.205149"
   },
   {
     "id": "4056bcacff25",
@@ -1836,7 +1865,7 @@
       "Stadt Wil"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.844458"
+    "scraped_at": "2026-06-19T19:57:23.150217"
   },
   {
     "id": "bfc9fa8f44ad",
@@ -1870,7 +1899,7 @@
       "Verkehrskontrolle"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.844540"
+    "scraped_at": "2026-06-19T19:57:23.150290"
   },
   {
     "id": "dbe4b22b5032",
@@ -1907,7 +1936,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.233929"
+    "scraped_at": "2026-06-19T19:57:24.795967"
   },
   {
     "id": "416cf095e77e",
@@ -1936,7 +1965,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234004"
+    "scraped_at": "2026-06-19T19:57:24.796031"
   },
   {
     "id": "8f44b327af91",
@@ -1993,7 +2022,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494267"
+    "scraped_at": "2026-06-19T19:57:21.342752"
   },
   {
     "id": "71b621c10837",
@@ -2026,7 +2055,7 @@
       "Unfallgeschehen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.880955"
+    "scraped_at": "2026-06-19T19:57:22.205228"
   },
   {
     "id": "1040d2327399",
@@ -2056,7 +2085,7 @@
       "Schweiz"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783198"
+    "scraped_at": "2026-06-19T19:57:19.485441"
   },
   {
     "id": "e666ab35d6f6",
@@ -2118,7 +2147,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550677"
+    "scraped_at": "2026-06-19T19:57:18.438083"
   },
   {
     "id": "b0c0b85db971",
@@ -2288,7 +2317,7 @@
       "Stadt Emmen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881031"
+    "scraped_at": "2026-06-19T19:57:22.205298"
   },
   {
     "id": "2b20cd4be436",
@@ -2319,7 +2348,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550739"
+    "scraped_at": "2026-06-19T19:57:18.438128"
   },
   {
     "id": "3f142c02b5f0",
@@ -2349,7 +2378,7 @@
       "Zoll"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.337615"
+    "scraped_at": "2026-06-19T19:57:20.569285"
   },
   {
     "id": "6a9066a36b8e",
@@ -2413,7 +2442,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550796"
+    "scraped_at": "2026-06-19T19:57:18.438171"
   },
   {
     "id": "3f3d25f3e275",
@@ -2509,7 +2538,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783270"
+    "scraped_at": "2026-06-19T19:57:19.485491"
   },
   {
     "id": "7286e8988935",
@@ -2539,7 +2568,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783360"
+    "scraped_at": "2026-06-19T19:57:19.485541"
   },
   {
     "id": "697597289436",
@@ -2593,7 +2622,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881103"
+    "scraped_at": "2026-06-19T19:57:22.205361"
   },
   {
     "id": "689d9bd0e939",
@@ -2628,7 +2657,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.844629"
+    "scraped_at": "2026-06-19T19:57:23.150368"
   },
   {
     "id": "9ea850690831",
@@ -2721,7 +2750,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783423"
+    "scraped_at": "2026-06-19T19:57:19.485606"
   },
   {
     "id": "a1366d9df7ca",
@@ -2763,7 +2792,7 @@
       "Wildhaus-Alt Sankt Johann"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.844708"
+    "scraped_at": "2026-06-19T19:57:23.150438"
   },
   {
     "id": "6fbf2be9e1fe",
@@ -2823,7 +2852,7 @@
       "Verbrechen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.844787"
+    "scraped_at": "2026-06-19T19:57:23.150506"
   },
   {
     "id": "e1a0469c08ae",
@@ -3010,7 +3039,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.550939"
+    "scraped_at": "2026-06-19T19:57:18.438297"
   },
   {
     "id": "68773ab207cc",
@@ -3046,7 +3075,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551000"
+    "scraped_at": "2026-06-19T19:57:18.438341"
   },
   {
     "id": "bdcd2a49963d",
@@ -3072,7 +3101,7 @@
       "Schweiz"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881345"
+    "scraped_at": "2026-06-19T19:57:22.205550"
   },
   {
     "id": "3f4a46c1e61f",
@@ -3099,7 +3128,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551062"
+    "scraped_at": "2026-06-19T19:57:18.438389"
   },
   {
     "id": "404620416205",
@@ -3127,7 +3156,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551120"
+    "scraped_at": "2026-06-19T19:57:18.438433"
   },
   {
     "id": "772b2ac11426",
@@ -3174,7 +3203,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783618"
+    "scraped_at": "2026-06-19T19:57:19.485783"
   },
   {
     "id": "de1410e83df2",
@@ -3200,7 +3229,7 @@
       "Schweiz"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881427"
+    "scraped_at": "2026-06-19T19:57:22.205631"
   },
   {
     "id": "05bcac44a3b5",
@@ -3233,7 +3262,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234204"
+    "scraped_at": "2026-06-19T19:57:24.796198"
   },
   {
     "id": "d2acd4f322b0",
@@ -3269,7 +3298,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234279"
+    "scraped_at": "2026-06-19T19:57:24.796257"
   },
   {
     "id": "201b44f0a21b",
@@ -3359,7 +3388,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551175"
+    "scraped_at": "2026-06-19T19:57:18.438476"
   },
   {
     "id": "cd2f119bb475",
@@ -3393,7 +3422,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163144"
+    "scraped_at": "2026-06-19T19:57:24.025838"
   },
   {
     "id": "7cf5bb04bb93",
@@ -3485,7 +3514,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551230"
+    "scraped_at": "2026-06-19T19:57:18.438519"
   },
   {
     "id": "255d490df822",
@@ -3597,7 +3626,7 @@
       "St.Gallen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845001"
+    "scraped_at": "2026-06-19T19:57:23.150716"
   },
   {
     "id": "d742ff4d71a8",
@@ -3630,7 +3659,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.502251"
+    "scraped_at": "2026-06-19T19:57:25.679705"
   },
   {
     "id": "707b098289d3",
@@ -3724,7 +3753,7 @@
       "Verbrechen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845079"
+    "scraped_at": "2026-06-19T19:57:23.150782"
   },
   {
     "id": "2d1e6a908818",
@@ -3795,7 +3824,7 @@
       "Thematisch"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494508"
+    "scraped_at": "2026-06-19T19:57:21.342944"
   },
   {
     "id": "2c4c1d6d8ac8",
@@ -3933,7 +3962,7 @@
       "Zoll"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783681"
+    "scraped_at": "2026-06-19T19:57:19.485833"
   },
   {
     "id": "f78144fe595d",
@@ -3968,7 +3997,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234377"
+    "scraped_at": "2026-06-19T19:57:24.796314"
   },
   {
     "id": "244a3a743064",
@@ -3998,7 +4027,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845164"
+    "scraped_at": "2026-06-19T19:57:23.150852"
   },
   {
     "id": "cf3c0ed7521f",
@@ -4035,7 +4064,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845251"
+    "scraped_at": "2026-06-19T19:57:23.150927"
   },
   {
     "id": "4163aaacbd1d",
@@ -4073,7 +4102,7 @@
       "Wattwil"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845359"
+    "scraped_at": "2026-06-19T19:57:23.150997"
   },
   {
     "id": "85585a8d26ad",
@@ -4099,7 +4128,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551307"
+    "scraped_at": "2026-06-19T19:57:18.438567"
   },
   {
     "id": "5d4f1d7d3fbf",
@@ -4132,7 +4161,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234449"
+    "scraped_at": "2026-06-19T19:57:24.796371"
   },
   {
     "id": "1cd81d5f34fd",
@@ -4190,7 +4219,7 @@
       "Schweiz"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881510"
+    "scraped_at": "2026-06-19T19:57:22.205703"
   },
   {
     "id": "6f45d342e09c",
@@ -4219,7 +4248,7 @@
       "Verbrechen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881589"
+    "scraped_at": "2026-06-19T19:57:22.205778"
   },
   {
     "id": "c90e004ddea3",
@@ -4251,7 +4280,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551371"
+    "scraped_at": "2026-06-19T19:57:18.438626"
   },
   {
     "id": "aa34037b0148",
@@ -4281,7 +4310,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234520"
+    "scraped_at": "2026-06-19T19:57:24.796433"
   },
   {
     "id": "9de1b1810f3b",
@@ -4362,7 +4391,7 @@
       "Stadt Horw"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881660"
+    "scraped_at": "2026-06-19T19:57:22.205837"
   },
   {
     "id": "d7115847b515",
@@ -4392,7 +4421,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881731"
+    "scraped_at": "2026-06-19T19:57:22.205895"
   },
   {
     "id": "93f6eeeddd10",
@@ -4421,7 +4450,7 @@
       "Stadt Sursee"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881812"
+    "scraped_at": "2026-06-19T19:57:22.205963"
   },
   {
     "id": "55898c7396d1",
@@ -4448,7 +4477,7 @@
       "Stadt Luzern"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881900"
+    "scraped_at": "2026-06-19T19:57:22.206038"
   },
   {
     "id": "7332ced69549",
@@ -4660,7 +4689,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551429"
+    "scraped_at": "2026-06-19T19:57:18.438672"
   },
   {
     "id": "8bb84f66464a",
@@ -4724,7 +4753,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.881981"
+    "scraped_at": "2026-06-19T19:57:22.206107"
   },
   {
     "id": "018cc9714c75",
@@ -4760,7 +4789,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882060"
+    "scraped_at": "2026-06-19T19:57:22.206174"
   },
   {
     "id": "4f5a58af8d35",
@@ -4796,7 +4825,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882132"
+    "scraped_at": "2026-06-19T19:57:22.206237"
   },
   {
     "id": "6277b0f37503",
@@ -4898,7 +4927,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845443"
+    "scraped_at": "2026-06-19T19:57:23.151064"
   },
   {
     "id": "9cb6b6679ffe",
@@ -4932,7 +4961,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845526"
+    "scraped_at": "2026-06-19T19:57:23.151130"
   },
   {
     "id": "f261aa0b2947",
@@ -4969,7 +4998,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845605"
+    "scraped_at": "2026-06-19T19:57:23.151204"
   },
   {
     "id": "6ddd8b80b60f",
@@ -5004,7 +5033,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845678"
+    "scraped_at": "2026-06-19T19:57:23.151265"
   },
   {
     "id": "904bfb8680aa",
@@ -5036,7 +5065,7 @@
       "Zeugenaufrufe"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845751"
+    "scraped_at": "2026-06-19T19:57:23.151329"
   },
   {
     "id": "cf3076161b5b",
@@ -5065,7 +5094,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494583"
+    "scraped_at": "2026-06-19T19:57:21.343010"
   },
   {
     "id": "eff36cd2590d",
@@ -5130,7 +5159,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783737"
+    "scraped_at": "2026-06-19T19:57:19.485883"
   },
   {
     "id": "4cbce4668ad8",
@@ -5193,7 +5222,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234601"
+    "scraped_at": "2026-06-19T19:57:24.796488"
   },
   {
     "id": "6f318b5c4da8",
@@ -5223,7 +5252,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551483"
+    "scraped_at": "2026-06-19T19:57:18.438714"
   },
   {
     "id": "bad6876ddeb2",
@@ -5315,7 +5344,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882201"
+    "scraped_at": "2026-06-19T19:57:22.206294"
   },
   {
     "id": "4da3145f4b75",
@@ -5348,7 +5377,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882270"
+    "scraped_at": "2026-06-19T19:57:22.206352"
   },
   {
     "id": "a5693555ef2d",
@@ -5379,7 +5408,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882374"
+    "scraped_at": "2026-06-19T19:57:22.206415"
   },
   {
     "id": "56577078424f",
@@ -5408,7 +5437,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882458"
+    "scraped_at": "2026-06-19T19:57:22.206478"
   },
   {
     "id": "8a05cb3cf026",
@@ -5495,7 +5524,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783797"
+    "scraped_at": "2026-06-19T19:57:19.485932"
   },
   {
     "id": "d475fdfc53f4",
@@ -5546,7 +5575,7 @@
       "Vermisst"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882535"
+    "scraped_at": "2026-06-19T19:57:22.206545"
   },
   {
     "id": "21c032800ab5",
@@ -5735,7 +5764,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845847"
+    "scraped_at": "2026-06-19T19:57:23.151412"
   },
   {
     "id": "4bb0d4707cd4",
@@ -5769,7 +5798,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551535"
+    "scraped_at": "2026-06-19T19:57:18.438759"
   },
   {
     "id": "e63697675477",
@@ -5957,7 +5986,7 @@
       "Stadt Solothurn"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494657"
+    "scraped_at": "2026-06-19T19:57:21.343074"
   },
   {
     "id": "ab5c3f4d6b4b",
@@ -5984,7 +6013,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551587"
+    "scraped_at": "2026-06-19T19:57:18.438800"
   },
   {
     "id": "2b6bb947204c",
@@ -6018,7 +6047,7 @@
       "Stadt Bern"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783854"
+    "scraped_at": "2026-06-19T19:57:19.485983"
   },
   {
     "id": "5a06ee82bfd3",
@@ -6044,7 +6073,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551653"
+    "scraped_at": "2026-06-19T19:57:18.438852"
   },
   {
     "id": "f4cd53b20154",
@@ -6070,7 +6099,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551708"
+    "scraped_at": "2026-06-19T19:57:18.438894"
   },
   {
     "id": "57026bea7404",
@@ -6098,7 +6127,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.502424"
+    "scraped_at": "2026-06-19T19:57:25.679829"
   },
   {
     "id": "a7a5c3cfb384",
@@ -6128,7 +6157,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163237"
+    "scraped_at": "2026-06-19T19:57:24.025914"
   },
   {
     "id": "6228c12c4543",
@@ -6220,7 +6249,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551763"
+    "scraped_at": "2026-06-19T19:57:18.438938"
   },
   {
     "id": "17d17f1ecf3e",
@@ -6250,7 +6279,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551816"
+    "scraped_at": "2026-06-19T19:57:18.438981"
   },
   {
     "id": "3808d5b05db9",
@@ -6286,7 +6315,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783911"
+    "scraped_at": "2026-06-19T19:57:19.486033"
   },
   {
     "id": "55be2ef61757",
@@ -6311,7 +6340,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494727"
+    "scraped_at": "2026-06-19T19:57:21.343135"
   },
   {
     "id": "b349f77ba6f5",
@@ -6347,7 +6376,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551876"
+    "scraped_at": "2026-06-19T19:57:18.439028"
   },
   {
     "id": "1754c860a4c6",
@@ -6520,7 +6549,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234672"
+    "scraped_at": "2026-06-19T19:57:24.796544"
   },
   {
     "id": "49f6815b88e2",
@@ -6638,7 +6667,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551937"
+    "scraped_at": "2026-06-19T19:57:18.439078"
   },
   {
     "id": "ab7ca7bdb2e0",
@@ -6789,7 +6818,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.551997"
+    "scraped_at": "2026-06-19T19:57:18.439126"
   },
   {
     "id": "346b4761c72f",
@@ -6850,7 +6879,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.337839"
+    "scraped_at": "2026-06-19T19:57:20.569488"
   },
   {
     "id": "93aeb7036f73",
@@ -6884,7 +6913,7 @@
       "Spital"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.783993"
+    "scraped_at": "2026-06-19T19:57:19.486093"
   },
   {
     "id": "6a7de92152a8",
@@ -6914,7 +6943,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552051"
+    "scraped_at": "2026-06-19T19:57:18.439168"
   },
   {
     "id": "6851ca8530d9",
@@ -7020,7 +7049,7 @@
       "Stadt St.Gallen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.845924"
+    "scraped_at": "2026-06-19T19:57:23.151476"
   },
   {
     "id": "ccee899eca3a",
@@ -7082,7 +7111,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494798"
+    "scraped_at": "2026-06-19T19:57:21.343195"
   },
   {
     "id": "1a05f8e8d4b9",
@@ -7138,7 +7167,7 @@
       "Unfälle"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163342"
+    "scraped_at": "2026-06-19T19:57:24.025986"
   },
   {
     "id": "764f01a7562b",
@@ -7164,7 +7193,7 @@
       "Stadt Allschwil"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494868"
+    "scraped_at": "2026-06-19T19:57:21.343254"
   },
   {
     "id": "4f6f255a0b67",
@@ -7200,7 +7229,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552104"
+    "scraped_at": "2026-06-19T19:57:18.439215"
   },
   {
     "id": "5d18584cc235",
@@ -7228,7 +7257,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.494935"
+    "scraped_at": "2026-06-19T19:57:21.343312"
   },
   {
     "id": "57420414c995",
@@ -7323,7 +7352,7 @@
       "Stadt Rapperswil-Jona"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846007"
+    "scraped_at": "2026-06-19T19:57:23.151547"
   },
   {
     "id": "33e6fc23f171",
@@ -7352,7 +7381,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.234741"
+    "scraped_at": "2026-06-19T19:57:24.796624"
   },
   {
     "id": "9dd8e9865cb6",
@@ -7388,7 +7417,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495013"
+    "scraped_at": "2026-06-19T19:57:21.343381"
   },
   {
     "id": "a4199a89fc85",
@@ -7649,7 +7678,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552255"
+    "scraped_at": "2026-06-19T19:57:18.439349"
   },
   {
     "id": "539621193a20",
@@ -7835,7 +7864,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552436"
+    "scraped_at": "2026-06-19T19:57:18.439472"
   },
   {
     "id": "d7450794ec9f",
@@ -7867,7 +7896,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163729"
+    "scraped_at": "2026-06-19T19:57:24.026320"
   },
   {
     "id": "1e191762d283",
@@ -7894,7 +7923,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552498"
+    "scraped_at": "2026-06-19T19:57:18.439514"
   },
   {
     "id": "d7dbd8e65ec6",
@@ -7921,7 +7950,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552558"
+    "scraped_at": "2026-06-19T19:57:18.439556"
   },
   {
     "id": "84b399f58902",
@@ -7950,7 +7979,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.338223"
+    "scraped_at": "2026-06-19T19:57:20.569851"
   },
   {
     "id": "4e66bed294c5",
@@ -7977,7 +8006,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235114"
+    "scraped_at": "2026-06-19T19:57:24.796973"
   },
   {
     "id": "183a676ced23",
@@ -8006,7 +8035,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552617"
+    "scraped_at": "2026-06-19T19:57:18.439613"
   },
   {
     "id": "11914f542418",
@@ -8076,7 +8105,7 @@
       "Verbrechen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882913"
+    "scraped_at": "2026-06-19T19:57:22.206912"
   },
   {
     "id": "ae513003308e",
@@ -8109,7 +8138,7 @@
       "Verkehrskontrolle"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846423"
+    "scraped_at": "2026-06-19T19:57:23.151902"
   },
   {
     "id": "1275fc7fd765",
@@ -8180,7 +8209,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.784386"
+    "scraped_at": "2026-06-19T19:57:19.486401"
   },
   {
     "id": "843ce85c0d32",
@@ -8361,7 +8390,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235185"
+    "scraped_at": "2026-06-19T19:57:24.797033"
   },
   {
     "id": "6a93878b5bd6",
@@ -8422,7 +8451,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552681"
+    "scraped_at": "2026-06-19T19:57:18.439659"
   },
   {
     "id": "928647fd2aab",
@@ -8453,7 +8482,7 @@
       "Verbrechen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846517"
+    "scraped_at": "2026-06-19T19:57:23.151980"
   },
   {
     "id": "53399ddcd14f",
@@ -8486,7 +8515,7 @@
       "St.Gallen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846605"
+    "scraped_at": "2026-06-19T19:57:23.152056"
   },
   {
     "id": "47967cc0de70",
@@ -8515,7 +8544,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.784462"
+    "scraped_at": "2026-06-19T19:57:19.486450"
   },
   {
     "id": "1f7f724357e6",
@@ -8655,7 +8684,7 @@
       "Stadt Luzern"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.882995"
+    "scraped_at": "2026-06-19T19:57:22.206977"
   },
   {
     "id": "7e16a0363380",
@@ -8686,7 +8715,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552739"
+    "scraped_at": "2026-06-19T19:57:18.439704"
   },
   {
     "id": "1dc8e41ba8f9",
@@ -8748,7 +8777,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163815"
+    "scraped_at": "2026-06-19T19:57:24.026393"
   },
   {
     "id": "5f190f72da85",
@@ -8847,7 +8876,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.784525"
+    "scraped_at": "2026-06-19T19:57:19.486498"
   },
   {
     "id": "1b646912f9c2",
@@ -8937,7 +8966,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552794"
+    "scraped_at": "2026-06-19T19:57:18.439748"
   },
   {
     "id": "dc79fd450d80",
@@ -8998,7 +9027,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883077"
+    "scraped_at": "2026-06-19T19:57:22.207045"
   },
   {
     "id": "831eaa42e319",
@@ -9032,7 +9061,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883154"
+    "scraped_at": "2026-06-19T19:57:22.207113"
   },
   {
     "id": "436bb64467b7",
@@ -9134,7 +9163,7 @@
       "Unfälle"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846683"
+    "scraped_at": "2026-06-19T19:57:23.152121"
   },
   {
     "id": "fae91f110688",
@@ -9167,7 +9196,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846759"
+    "scraped_at": "2026-06-19T19:57:23.152182"
   },
   {
     "id": "adb49a95b669",
@@ -9202,7 +9231,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846841"
+    "scraped_at": "2026-06-19T19:57:23.152251"
   },
   {
     "id": "45f74e82a291",
@@ -9307,7 +9336,7 @@
       "Wildhaus-Alt Sankt Johann"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.846930"
+    "scraped_at": "2026-06-19T19:57:23.152325"
   },
   {
     "id": "37c9d23ff862",
@@ -9338,7 +9367,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.502789"
+    "scraped_at": "2026-06-19T19:57:25.680153"
   },
   {
     "id": "94bdc7a2303c",
@@ -9391,7 +9420,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552848"
+    "scraped_at": "2026-06-19T19:57:18.439791"
   },
   {
     "id": "f24f61c1387c",
@@ -9434,7 +9463,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552905"
+    "scraped_at": "2026-06-19T19:57:18.439842"
   },
   {
     "id": "6a440c28ed1c",
@@ -9464,7 +9493,7 @@
       "Stadt Solothurn"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.502852"
+    "scraped_at": "2026-06-19T19:57:25.680205"
   },
   {
     "id": "8882ce711e92",
@@ -9558,7 +9587,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.552964"
+    "scraped_at": "2026-06-19T19:57:18.439893"
   },
   {
     "id": "2679e8485012",
@@ -9676,7 +9705,7 @@
       "Wabern"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.784590"
+    "scraped_at": "2026-06-19T19:57:19.486548"
   },
   {
     "id": "584666a56ed8",
@@ -9705,7 +9734,7 @@
       "Todesfälle"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495455"
+    "scraped_at": "2026-06-19T19:57:21.343738"
   },
   {
     "id": "87138a60f38a",
@@ -9741,7 +9770,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553022"
+    "scraped_at": "2026-06-19T19:57:18.439939"
   },
   {
     "id": "6fdc64a0b39b",
@@ -9799,7 +9828,7 @@
       "Waffen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235255"
+    "scraped_at": "2026-06-19T19:57:24.797088"
   },
   {
     "id": "10947c100101",
@@ -9858,7 +9887,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553083"
+    "scraped_at": "2026-06-19T19:57:18.439987"
   },
   {
     "id": "914468dd4564",
@@ -9888,7 +9917,7 @@
       "Verbrechen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.163898"
+    "scraped_at": "2026-06-19T19:57:24.026468"
   },
   {
     "id": "a2e58c60f69d",
@@ -10039,7 +10068,7 @@
       "Stadt Sursee"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883235"
+    "scraped_at": "2026-06-19T19:57:22.207183"
   },
   {
     "id": "dd1422a0221f",
@@ -10225,7 +10254,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553241"
+    "scraped_at": "2026-06-19T19:57:18.440122"
   },
   {
     "id": "e49a15500a25",
@@ -10252,7 +10281,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553315"
+    "scraped_at": "2026-06-19T19:57:18.440163"
   },
   {
     "id": "c73a6884781a",
@@ -10279,7 +10308,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883494"
+    "scraped_at": "2026-06-19T19:57:22.207391"
   },
   {
     "id": "51d39830dd0a",
@@ -10344,7 +10373,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553383"
+    "scraped_at": "2026-06-19T19:57:18.440206"
   },
   {
     "id": "1a5a9065f4eb",
@@ -10437,7 +10466,7 @@
       "Zollhunde"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.338492"
+    "scraped_at": "2026-06-19T19:57:20.570061"
   },
   {
     "id": "125d24e92e34",
@@ -10500,7 +10529,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553460"
+    "scraped_at": "2026-06-19T19:57:18.440263"
   },
   {
     "id": "f5a93f0163e3",
@@ -10542,7 +10571,7 @@
       "Zürich"
     ],
     "source": "Zürich",
-    "scraped_at": "2026-06-19T15:34:58.553523"
+    "scraped_at": "2026-06-19T19:57:18.440310"
   },
   {
     "id": "f7945bc2f64b",
@@ -10589,7 +10618,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785016"
+    "scraped_at": "2026-06-19T19:57:19.486817"
   },
   {
     "id": "9f3fbfbd1619",
@@ -10663,7 +10692,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503082"
+    "scraped_at": "2026-06-19T19:57:25.680400"
   },
   {
     "id": "add51bfff1c7",
@@ -10720,7 +10749,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785143"
+    "scraped_at": "2026-06-19T19:57:19.486866"
   },
   {
     "id": "07701770bae0",
@@ -10748,7 +10777,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235528"
+    "scraped_at": "2026-06-19T19:57:24.797281"
   },
   {
     "id": "828a48bbfcc2",
@@ -10802,7 +10831,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.338568"
+    "scraped_at": "2026-06-19T19:57:20.570124"
   },
   {
     "id": "658ec2356a2d",
@@ -10836,7 +10865,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503165"
+    "scraped_at": "2026-06-19T19:57:25.680460"
   },
   {
     "id": "34889dfb7ff3",
@@ -11050,7 +11079,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847177"
+    "scraped_at": "2026-06-19T19:57:23.152537"
   },
   {
     "id": "079c0abdf89c",
@@ -11110,7 +11139,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883573"
+    "scraped_at": "2026-06-19T19:57:22.207459"
   },
   {
     "id": "0de898d1728d",
@@ -11201,7 +11230,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495694"
+    "scraped_at": "2026-06-19T19:57:21.343939"
   },
   {
     "id": "60ee2d53103b",
@@ -11278,7 +11307,7 @@
       "Zeugenaufrufe"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847261"
+    "scraped_at": "2026-06-19T19:57:23.152619"
   },
   {
     "id": "fab431240588",
@@ -11305,7 +11334,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503234"
+    "scraped_at": "2026-06-19T19:57:25.680514"
   },
   {
     "id": "68ec492db969",
@@ -11336,7 +11365,7 @@
       "Verkehrssicherheit"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847367"
+    "scraped_at": "2026-06-19T19:57:23.152692"
   },
   {
     "id": "17a0fd197287",
@@ -11535,7 +11564,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785251"
+    "scraped_at": "2026-06-19T19:57:19.486912"
   },
   {
     "id": "70e12e70a26d",
@@ -11618,7 +11647,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883649"
+    "scraped_at": "2026-06-19T19:57:22.207524"
   },
   {
     "id": "88b7e35f086d",
@@ -11795,7 +11824,7 @@
       "Verbrechen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785400"
+    "scraped_at": "2026-06-19T19:57:19.486964"
   },
   {
     "id": "f316d0cd8daa",
@@ -11941,7 +11970,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785522"
+    "scraped_at": "2026-06-19T19:57:19.487019"
   },
   {
     "id": "16e33a489ab2",
@@ -12008,7 +12037,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785629"
+    "scraped_at": "2026-06-19T19:57:19.487072"
   },
   {
     "id": "1c6e0e726283",
@@ -12037,7 +12066,7 @@
       "Schweiz"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785731"
+    "scraped_at": "2026-06-19T19:57:19.487117"
   },
   {
     "id": "b58bb8ffe333",
@@ -12107,7 +12136,7 @@
       "Verbrechen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847450"
+    "scraped_at": "2026-06-19T19:57:23.152759"
   },
   {
     "id": "6856940eb4b2",
@@ -12168,7 +12197,7 @@
       "Zoll"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883723"
+    "scraped_at": "2026-06-19T19:57:22.207602"
   },
   {
     "id": "9744992c0cb4",
@@ -12204,7 +12233,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785814"
+    "scraped_at": "2026-06-19T19:57:19.487162"
   },
   {
     "id": "b6119a819d5d",
@@ -12235,7 +12264,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235605"
+    "scraped_at": "2026-06-19T19:57:24.797337"
   },
   {
     "id": "9c93cad7246d",
@@ -12266,7 +12295,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503319"
+    "scraped_at": "2026-06-19T19:57:25.680569"
   },
   {
     "id": "ce78739445f9",
@@ -12337,7 +12366,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847533"
+    "scraped_at": "2026-06-19T19:57:23.152834"
   },
   {
     "id": "0db0e1ccb3a6",
@@ -12368,7 +12397,7 @@
       "Stadt Buchs SG"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847607"
+    "scraped_at": "2026-06-19T19:57:23.152895"
   },
   {
     "id": "c2ade77bdb24",
@@ -12438,7 +12467,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847686"
+    "scraped_at": "2026-06-19T19:57:23.152960"
   },
   {
     "id": "48c150991c5d",
@@ -12494,7 +12523,7 @@
       "Stadt Solothurn"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503404"
+    "scraped_at": "2026-06-19T19:57:25.680643"
   },
   {
     "id": "d78f6f4a1ad8",
@@ -12527,7 +12556,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883806"
+    "scraped_at": "2026-06-19T19:57:22.207674"
   },
   {
     "id": "a0231797526e",
@@ -12560,7 +12589,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883888"
+    "scraped_at": "2026-06-19T19:57:22.207740"
   },
   {
     "id": "5569dcc696dc",
@@ -12589,7 +12618,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495769"
+    "scraped_at": "2026-06-19T19:57:21.344002"
   },
   {
     "id": "f78fc2bc37a7",
@@ -12617,7 +12646,7 @@
       "Verbrechen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785879"
+    "scraped_at": "2026-06-19T19:57:19.487211"
   },
   {
     "id": "d58f6ed69907",
@@ -12647,7 +12676,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235677"
+    "scraped_at": "2026-06-19T19:57:24.797398"
   },
   {
     "id": "3dcb92d36be2",
@@ -12792,7 +12821,7 @@
       "Wildhaus-Alt Sankt Johann"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847772"
+    "scraped_at": "2026-06-19T19:57:23.153036"
   },
   {
     "id": "b60016941925",
@@ -12967,7 +12996,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235749"
+    "scraped_at": "2026-06-19T19:57:24.797454"
   },
   {
     "id": "993309564504",
@@ -13037,7 +13066,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.785939"
+    "scraped_at": "2026-06-19T19:57:19.487257"
   },
   {
     "id": "06401880c35d",
@@ -13072,7 +13101,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164135"
+    "scraped_at": "2026-06-19T19:57:24.026702"
   },
   {
     "id": "84cff85f36ca",
@@ -13134,7 +13163,7 @@
       "Unfälle"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164213"
+    "scraped_at": "2026-06-19T19:57:24.026773"
   },
   {
     "id": "e5bfb1b078a3",
@@ -13166,7 +13195,7 @@
       "Stadt Olten"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503478"
+    "scraped_at": "2026-06-19T19:57:25.680706"
   },
   {
     "id": "6625d930b674",
@@ -13204,7 +13233,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786005"
+    "scraped_at": "2026-06-19T19:57:19.487309"
   },
   {
     "id": "e184fd9d3579",
@@ -13234,7 +13263,7 @@
       "Zoll"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847859"
+    "scraped_at": "2026-06-19T19:57:23.153108"
   },
   {
     "id": "d751cabb99f3",
@@ -13265,7 +13294,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.847936"
+    "scraped_at": "2026-06-19T19:57:23.153173"
   },
   {
     "id": "ad550214c621",
@@ -13302,7 +13331,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.848029"
+    "scraped_at": "2026-06-19T19:57:23.153244"
   },
   {
     "id": "cfa57c203fd1",
@@ -13331,7 +13360,7 @@
       "Verbrechen"
     ],
     "source": "St. Gallen",
-    "scraped_at": "2026-06-19T15:35:04.848103"
+    "scraped_at": "2026-06-19T19:57:23.153310"
   },
   {
     "id": "3a410b12d0fc",
@@ -13395,7 +13424,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503546"
+    "scraped_at": "2026-06-19T19:57:25.680764"
   },
   {
     "id": "8d7855d3874f",
@@ -13428,7 +13457,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235819"
+    "scraped_at": "2026-06-19T19:57:24.797509"
   },
   {
     "id": "798c872e28d5",
@@ -13459,7 +13488,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495852"
+    "scraped_at": "2026-06-19T19:57:21.344076"
   },
   {
     "id": "66c6a4ca5fb4",
@@ -13500,7 +13529,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235891"
+    "scraped_at": "2026-06-19T19:57:24.797568"
   },
   {
     "id": "3d747b958e15",
@@ -13679,7 +13708,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495923"
+    "scraped_at": "2026-06-19T19:57:21.344134"
   },
   {
     "id": "9dfd6a79938f",
@@ -13801,7 +13830,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164324"
+    "scraped_at": "2026-06-19T19:57:24.026846"
   },
   {
     "id": "d185ee03f180",
@@ -13834,7 +13863,7 @@
       "Spital"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503617"
+    "scraped_at": "2026-06-19T19:57:25.680818"
   },
   {
     "id": "572cb9991540",
@@ -14037,7 +14066,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786067"
+    "scraped_at": "2026-06-19T19:57:19.487353"
   },
   {
     "id": "18109c796f44",
@@ -14397,7 +14426,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164416"
+    "scraped_at": "2026-06-19T19:57:24.026915"
   },
   {
     "id": "e35df8ef4ca5",
@@ -14433,7 +14462,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.883967"
+    "scraped_at": "2026-06-19T19:57:22.207805"
   },
   {
     "id": "515b585dcfd6",
@@ -14497,7 +14526,7 @@
       "Stadt Thun"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786126"
+    "scraped_at": "2026-06-19T19:57:19.487399"
   },
   {
     "id": "83c3d557f384",
@@ -14529,7 +14558,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.235962"
+    "scraped_at": "2026-06-19T19:57:24.797650"
   },
   {
     "id": "f8bdc1a8aca5",
@@ -14584,7 +14613,7 @@
       "Verbrechen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786187"
+    "scraped_at": "2026-06-19T19:57:19.487446"
   },
   {
     "id": "ded5d91f05f0",
@@ -14705,7 +14734,7 @@
       "Tierwelt"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.495995"
+    "scraped_at": "2026-06-19T19:57:21.344193"
   },
   {
     "id": "e90ab299f9ae",
@@ -14736,7 +14765,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.884059"
+    "scraped_at": "2026-06-19T19:57:22.207906"
   },
   {
     "id": "de8096990de6",
@@ -14986,7 +15015,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164507"
+    "scraped_at": "2026-06-19T19:57:24.026989"
   },
   {
     "id": "c1d6887b276f",
@@ -15020,7 +15049,7 @@
       "Stadt Burgdorf"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786247"
+    "scraped_at": "2026-06-19T19:57:19.487499"
   },
   {
     "id": "701326ef1b58",
@@ -15050,7 +15079,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236029"
+    "scraped_at": "2026-06-19T19:57:24.797707"
   },
   {
     "id": "d5cb7ebcee38",
@@ -15181,7 +15210,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164588"
+    "scraped_at": "2026-06-19T19:57:24.027056"
   },
   {
     "id": "a02dea93ba9b",
@@ -15214,7 +15243,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.164669"
+    "scraped_at": "2026-06-19T19:57:24.027125"
   },
   {
     "id": "21f95e60550c",
@@ -15347,7 +15376,7 @@
       "Vermisst"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786338"
+    "scraped_at": "2026-06-19T19:57:19.487549"
   },
   {
     "id": "47680e69d8f4",
@@ -15428,7 +15457,7 @@
       "Zürich"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786433"
+    "scraped_at": "2026-06-19T19:57:19.487631"
   },
   {
     "id": "c84f3fe6347e",
@@ -15461,7 +15490,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.503767"
+    "scraped_at": "2026-06-19T19:57:25.680945"
   },
   {
     "id": "3f4532fa6099",
@@ -15725,7 +15754,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236181"
+    "scraped_at": "2026-06-19T19:57:24.797830"
   },
   {
     "id": "fa6bdc46e4d9",
@@ -15756,7 +15785,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236253"
+    "scraped_at": "2026-06-19T19:57:24.797889"
   },
   {
     "id": "ad26f51cf7e5",
@@ -15791,7 +15820,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786496"
+    "scraped_at": "2026-06-19T19:57:19.487681"
   },
   {
     "id": "77b49eee0509",
@@ -15820,7 +15849,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.496149"
+    "scraped_at": "2026-06-19T19:57:21.344321"
   },
   {
     "id": "e15a39a11af6",
@@ -16007,7 +16036,7 @@
       "Zürich"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786637"
+    "scraped_at": "2026-06-19T19:57:19.487804"
   },
   {
     "id": "ad5671214130",
@@ -16100,7 +16129,7 @@
       "Verbrechen"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786700"
+    "scraped_at": "2026-06-19T19:57:19.487852"
   },
   {
     "id": "33ecac40bd44",
@@ -16290,7 +16319,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.884386"
+    "scraped_at": "2026-06-19T19:57:22.208193"
   },
   {
     "id": "8eb8e393c5a1",
@@ -16411,7 +16440,7 @@
       "Waffen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236504"
+    "scraped_at": "2026-06-19T19:57:24.798068"
   },
   {
     "id": "31f9f846359c",
@@ -16472,7 +16501,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.338871"
+    "scraped_at": "2026-06-19T19:57:20.570382"
   },
   {
     "id": "87e3911abed9",
@@ -16502,7 +16531,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.338948"
+    "scraped_at": "2026-06-19T19:57:20.570444"
   },
   {
     "id": "bc2093812d3f",
@@ -16753,7 +16782,7 @@
       "Zürich"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786846"
+    "scraped_at": "2026-06-19T19:57:19.487980"
   },
   {
     "id": "9621c36630a8",
@@ -17193,7 +17222,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236714"
+    "scraped_at": "2026-06-19T19:57:24.798244"
   },
   {
     "id": "8d22d1f62816",
@@ -17228,7 +17257,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.504119"
+    "scraped_at": "2026-06-19T19:57:25.681259"
   },
   {
     "id": "a684cdf67845",
@@ -17326,7 +17355,7 @@
       "Zug"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.884663"
+    "scraped_at": "2026-06-19T19:57:22.208435"
   },
   {
     "id": "c5063d15d0f5",
@@ -17602,7 +17631,7 @@
       "Zürich"
     ],
     "source": "Bern",
-    "scraped_at": "2026-06-19T15:34:59.786988"
+    "scraped_at": "2026-06-19T19:57:19.488101"
   },
   {
     "id": "20f2e044c71e",
@@ -17889,7 +17918,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.884881"
+    "scraped_at": "2026-06-19T19:57:22.208656"
   },
   {
     "id": "7c0336a0b1c6",
@@ -17977,7 +18006,7 @@
       "Verbrechen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.165254"
+    "scraped_at": "2026-06-19T19:57:24.027646"
   },
   {
     "id": "c2e490155dd1",
@@ -18098,7 +18127,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Luzern",
-    "scraped_at": "2026-06-19T15:35:03.884963"
+    "scraped_at": "2026-06-19T19:57:22.208725"
   },
   {
     "id": "979d61a41959",
@@ -18228,7 +18257,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.236919"
+    "scraped_at": "2026-06-19T19:57:24.798425"
   },
   {
     "id": "041ec70c6ab0",
@@ -18479,7 +18508,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.339409"
+    "scraped_at": "2026-06-19T19:57:20.570833"
   },
   {
     "id": "1a8fa0ecb573",
@@ -19012,7 +19041,7 @@
       "Verkehrskontrolle"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237139"
+    "scraped_at": "2026-06-19T19:57:24.798621"
   },
   {
     "id": "8fab49ba4ad7",
@@ -19527,7 +19556,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237202"
+    "scraped_at": "2026-06-19T19:57:24.798677"
   },
   {
     "id": "3d244dc2ecf3",
@@ -19619,7 +19648,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237273"
+    "scraped_at": "2026-06-19T19:57:24.798737"
   },
   {
     "id": "2fca22be90f3",
@@ -19860,7 +19889,7 @@
       "Schweiz"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237382"
+    "scraped_at": "2026-06-19T19:57:24.798803"
   },
   {
     "id": "2748addce1f6",
@@ -20012,7 +20041,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237452"
+    "scraped_at": "2026-06-19T19:57:24.798858"
   },
   {
     "id": "030d6cd37909",
@@ -20106,7 +20135,7 @@
       "Wettereinsätze"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237522"
+    "scraped_at": "2026-06-19T19:57:24.798915"
   },
   {
     "id": "de3789540827",
@@ -20687,7 +20716,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.339553"
+    "scraped_at": "2026-06-19T19:57:20.570953"
   },
   {
     "id": "51a924c0157a",
@@ -20773,7 +20802,7 @@
       "Stadt Basel"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.339627"
+    "scraped_at": "2026-06-19T19:57:20.571016"
   },
   {
     "id": "bfa7d8c6d68f",
@@ -20908,7 +20937,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237733"
+    "scraped_at": "2026-06-19T19:57:24.799096"
   },
   {
     "id": "63a02e078dbd",
@@ -21185,7 +21214,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.504649"
+    "scraped_at": "2026-06-19T19:57:25.681719"
   },
   {
     "id": "daa49d33fc43",
@@ -21255,7 +21284,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.504736"
+    "scraped_at": "2026-06-19T19:57:25.681779"
   },
   {
     "id": "cf0ef908942b",
@@ -21481,7 +21510,7 @@
       "Verbrechen"
     ],
     "source": "Aargau",
-    "scraped_at": "2026-06-19T15:35:07.237802"
+    "scraped_at": "2026-06-19T19:57:24.799150"
   },
   {
     "id": "6fd56efb1ab0",
@@ -21647,7 +21676,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.504810"
+    "scraped_at": "2026-06-19T19:57:25.681836"
   },
   {
     "id": "f1169639ab7f",
@@ -21707,7 +21736,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.165662"
+    "scraped_at": "2026-06-19T19:57:24.027983"
   },
   {
     "id": "7033900b2c04",
@@ -21935,7 +21964,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.165741"
+    "scraped_at": "2026-06-19T19:57:24.028048"
   },
   {
     "id": "74b496e12f80",
@@ -22435,7 +22464,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.339773"
+    "scraped_at": "2026-06-19T19:57:20.571143"
   },
   {
     "id": "51a4bc085535",
@@ -22461,7 +22490,7 @@
       "Zoll"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.165977"
+    "scraped_at": "2026-06-19T19:57:24.028247"
   },
   {
     "id": "d6a0da8a53a9",
@@ -22712,7 +22741,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.339912"
+    "scraped_at": "2026-06-19T19:57:20.571270"
   },
   {
     "id": "b16b301a7179",
@@ -22826,7 +22855,7 @@
       "Waffen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497234"
+    "scraped_at": "2026-06-19T19:57:21.345267"
   },
   {
     "id": "0cd72befdd35",
@@ -23126,7 +23155,7 @@
       "Verkehrssicherheit"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166198"
+    "scraped_at": "2026-06-19T19:57:24.028439"
   },
   {
     "id": "791b38f80bce",
@@ -23156,7 +23185,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166275"
+    "scraped_at": "2026-06-19T19:57:24.028505"
   },
   {
     "id": "13a5d20f0321",
@@ -23185,7 +23214,7 @@
       "Verbrechen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166392"
+    "scraped_at": "2026-06-19T19:57:24.028583"
   },
   {
     "id": "206103b56119",
@@ -23219,7 +23248,7 @@
       "Unfälle"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505170"
+    "scraped_at": "2026-06-19T19:57:25.682159"
   },
   {
     "id": "2cab05ef6792",
@@ -23251,7 +23280,7 @@
       "Training"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166475"
+    "scraped_at": "2026-06-19T19:57:24.028663"
   },
   {
     "id": "02a552517807",
@@ -23358,7 +23387,7 @@
       "Stadt Pratteln"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497334"
+    "scraped_at": "2026-06-19T19:57:21.345331"
   },
   {
     "id": "006f3fc29cec",
@@ -23677,7 +23706,7 @@
       "Verbrechen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166557"
+    "scraped_at": "2026-06-19T19:57:24.028737"
   },
   {
     "id": "76d1a16432df",
@@ -23903,7 +23932,7 @@
       "Spital"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497418"
+    "scraped_at": "2026-06-19T19:57:21.345396"
   },
   {
     "id": "3ba8987a5f31",
@@ -24130,7 +24159,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505241"
+    "scraped_at": "2026-06-19T19:57:25.682216"
   },
   {
     "id": "baf682c9c02c",
@@ -24548,7 +24577,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166636"
+    "scraped_at": "2026-06-19T19:57:24.028804"
   },
   {
     "id": "efa28d21b159",
@@ -24817,7 +24846,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505351"
+    "scraped_at": "2026-06-19T19:57:25.682270"
   },
   {
     "id": "aa48b3f01c68",
@@ -24950,7 +24979,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505435"
+    "scraped_at": "2026-06-19T19:57:25.682329"
   },
   {
     "id": "c6d654c8a8f4",
@@ -25397,7 +25426,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.166741"
+    "scraped_at": "2026-06-19T19:57:24.028902"
   },
   {
     "id": "6374c821154c",
@@ -25946,7 +25975,7 @@
       "Tierwelt"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497489"
+    "scraped_at": "2026-06-19T19:57:21.345454"
   },
   {
     "id": "286f34f29549",
@@ -26277,7 +26306,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340045"
+    "scraped_at": "2026-06-19T19:57:20.571386"
   },
   {
     "id": "9e3f2aca1718",
@@ -26485,7 +26514,7 @@
       "Solothurn"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505642"
+    "scraped_at": "2026-06-19T19:57:25.682506"
   },
   {
     "id": "3a0ee29e8edd",
@@ -26948,7 +26977,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340179"
+    "scraped_at": "2026-06-19T19:57:20.571505"
   },
   {
     "id": "88180e5c3d74",
@@ -27438,7 +27467,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505850"
+    "scraped_at": "2026-06-19T19:57:25.682705"
   },
   {
     "id": "6b654c665e19",
@@ -27569,7 +27598,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497827"
+    "scraped_at": "2026-06-19T19:57:21.345764"
   },
   {
     "id": "a8d5dbfb9762",
@@ -27792,7 +27821,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497898"
+    "scraped_at": "2026-06-19T19:57:21.345825"
   },
   {
     "id": "4f184f80718b",
@@ -27819,7 +27848,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167102"
+    "scraped_at": "2026-06-19T19:57:24.029211"
   },
   {
     "id": "c74a497c6ea7",
@@ -28633,7 +28662,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.497967"
+    "scraped_at": "2026-06-19T19:57:21.345887"
   },
   {
     "id": "213809afe14d",
@@ -28922,7 +28951,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167178"
+    "scraped_at": "2026-06-19T19:57:24.029277"
   },
   {
     "id": "a9c90e598129",
@@ -28982,7 +29011,7 @@
       "Unfälle"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167266"
+    "scraped_at": "2026-06-19T19:57:24.029352"
   },
   {
     "id": "b263727f40c0",
@@ -29010,7 +29039,7 @@
       "Solothurn"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505921"
+    "scraped_at": "2026-06-19T19:57:25.682763"
   },
   {
     "id": "1ca695f66ffb",
@@ -29402,7 +29431,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.505994"
+    "scraped_at": "2026-06-19T19:57:25.682819"
   },
   {
     "id": "e0567621d7af",
@@ -29433,7 +29462,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.506065"
+    "scraped_at": "2026-06-19T19:57:25.682880"
   },
   {
     "id": "c2230c20642d",
@@ -29464,7 +29493,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498040"
+    "scraped_at": "2026-06-19T19:57:21.345944"
   },
   {
     "id": "e50f907e8f8d",
@@ -29829,7 +29858,7 @@
       "Verkehr & Katastrophen"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.506131"
+    "scraped_at": "2026-06-19T19:57:25.682937"
   },
   {
     "id": "69c4aa278b28",
@@ -30597,7 +30626,7 @@
       "Verbrechen"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167365"
+    "scraped_at": "2026-06-19T19:57:24.029425"
   },
   {
     "id": "6a61629ce460",
@@ -30686,7 +30715,7 @@
       "Zoll"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167444"
+    "scraped_at": "2026-06-19T19:57:24.029490"
   },
   {
     "id": "10a575c7772a",
@@ -30815,7 +30844,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498118"
+    "scraped_at": "2026-06-19T19:57:21.346011"
   },
   {
     "id": "e619a4829294",
@@ -30843,7 +30872,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167525"
+    "scraped_at": "2026-06-19T19:57:24.029553"
   },
   {
     "id": "21672576b3ee",
@@ -31063,7 +31092,7 @@
       "Zoll"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.506196"
+    "scraped_at": "2026-06-19T19:57:25.682992"
   },
   {
     "id": "388b915faa33",
@@ -31233,7 +31262,7 @@
       "Waffen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340258"
+    "scraped_at": "2026-06-19T19:57:20.571564"
   },
   {
     "id": "676c1ecca648",
@@ -31306,7 +31335,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498198"
+    "scraped_at": "2026-06-19T19:57:21.346082"
   },
   {
     "id": "ac5193b9328f",
@@ -31397,7 +31426,7 @@
       "Spital"
     ],
     "source": "Solothurn",
-    "scraped_at": "2026-06-19T15:35:08.506261"
+    "scraped_at": "2026-06-19T19:57:25.683047"
   },
   {
     "id": "2cf0e354cc2e",
@@ -31687,7 +31716,7 @@
       "Zoll"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340367"
+    "scraped_at": "2026-06-19T19:57:20.571634"
   },
   {
     "id": "ac624ee465f9",
@@ -31912,7 +31941,7 @@
       "Verkehrsmeldungen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340445"
+    "scraped_at": "2026-06-19T19:57:20.571696"
   },
   {
     "id": "ec45be459519",
@@ -32253,7 +32282,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498273"
+    "scraped_at": "2026-06-19T19:57:21.346145"
   },
   {
     "id": "c9cf3a6cc4fc",
@@ -32347,7 +32376,7 @@
       "Schweiz"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498368"
+    "scraped_at": "2026-06-19T19:57:21.346204"
   },
   {
     "id": "1a89fd138691",
@@ -32720,7 +32749,7 @@
       "Tessin"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167612"
+    "scraped_at": "2026-06-19T19:57:24.029636"
   },
   {
     "id": "bd403eb01186",
@@ -32782,7 +32811,7 @@
       "Unfälle"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498441"
+    "scraped_at": "2026-06-19T19:57:21.346265"
   },
   {
     "id": "d71be9f57521",
@@ -32903,7 +32932,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340516"
+    "scraped_at": "2026-06-19T19:57:20.571755"
   },
   {
     "id": "b45593d000bd",
@@ -33111,7 +33140,7 @@
       "Zoll"
     ],
     "source": "Tessin",
-    "scraped_at": "2026-06-19T15:35:06.167685"
+    "scraped_at": "2026-06-19T19:57:24.029698"
   },
   {
     "id": "d7dae4cee6e9",
@@ -33295,7 +33324,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340591"
+    "scraped_at": "2026-06-19T19:57:20.571820"
   },
   {
     "id": "35ffda3e4367",
@@ -33325,7 +33354,7 @@
       "Zeugenaufrufe"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340668"
+    "scraped_at": "2026-06-19T19:57:20.571881"
   },
   {
     "id": "cc740c61689b",
@@ -33801,7 +33830,7 @@
       "Spital"
     ],
     "source": "Basel-Landschaft",
-    "scraped_at": "2026-06-19T15:35:02.498507"
+    "scraped_at": "2026-06-19T19:57:21.346320"
   },
   {
     "id": "6b58bcba913b",
@@ -34011,7 +34040,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340804"
+    "scraped_at": "2026-06-19T19:57:20.571999"
   },
   {
     "id": "b0f35157cc37",
@@ -35467,7 +35496,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.340943"
+    "scraped_at": "2026-06-19T19:57:20.572122"
   },
   {
     "id": "6320a309e1da",
@@ -35842,7 +35871,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341113"
+    "scraped_at": "2026-06-19T19:57:20.572246"
   },
   {
     "id": "d29a61653a52",
@@ -36402,7 +36431,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341266"
+    "scraped_at": "2026-06-19T19:57:20.572374"
   },
   {
     "id": "4773b672486d",
@@ -36610,7 +36639,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341414"
+    "scraped_at": "2026-06-19T19:57:20.572469"
   },
   {
     "id": "f8e54042b71c",
@@ -36692,7 +36721,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341475"
+    "scraped_at": "2026-06-19T19:57:20.572515"
   },
   {
     "id": "00b41a2b4ea5",
@@ -36929,7 +36958,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341617"
+    "scraped_at": "2026-06-19T19:57:20.572653"
   },
   {
     "id": "c67f618a4cc1",
@@ -37631,7 +37660,7 @@
       "Stadt Basel"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341689"
+    "scraped_at": "2026-06-19T19:57:20.572715"
   },
   {
     "id": "0a0bcc48882f",
@@ -37963,7 +37992,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341831"
+    "scraped_at": "2026-06-19T19:57:20.572841"
   },
   {
     "id": "f33fb8d55f2a",
@@ -38219,7 +38248,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.341972"
+    "scraped_at": "2026-06-19T19:57:20.572959"
   },
   {
     "id": "8500a27df734",
@@ -38814,7 +38843,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342125"
+    "scraped_at": "2026-06-19T19:57:20.573086"
   },
   {
     "id": "008dd73410b5",
@@ -39234,7 +39263,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342274"
+    "scraped_at": "2026-06-19T19:57:20.573211"
   },
   {
     "id": "d74e69b06e86",
@@ -39376,7 +39405,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342430"
+    "scraped_at": "2026-06-19T19:57:20.573323"
   },
   {
     "id": "25e06594f9eb",
@@ -39460,7 +39489,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342550"
+    "scraped_at": "2026-06-19T19:57:20.573421"
   },
   {
     "id": "aac4bff58ca8",
@@ -39549,7 +39578,7 @@
       "Zoll"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342637"
+    "scraped_at": "2026-06-19T19:57:20.573483"
   },
   {
     "id": "0ed6bbdaa106",
@@ -39785,7 +39814,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342779"
+    "scraped_at": "2026-06-19T19:57:20.573617"
   },
   {
     "id": "57f39b23b6da",
@@ -39969,7 +39998,7 @@
       "Zürich"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.342927"
+    "scraped_at": "2026-06-19T19:57:20.573741"
   },
   {
     "id": "ea92f2e95196",
@@ -40168,7 +40197,7 @@
       "Stadt Basel"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.343003"
+    "scraped_at": "2026-06-19T19:57:20.573810"
   },
   {
     "id": "9763c8d5c861",
@@ -40226,7 +40255,7 @@
       "Verbrechen"
     ],
     "source": "Basel-Stadt",
-    "scraped_at": "2026-06-19T15:35:01.343077"
+    "scraped_at": "2026-06-19T19:57:20.573874"
   },
   {
     "id": "301fd2f8f3cb",
