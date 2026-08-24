@@ -1,24 +1,24 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
 **Datum:** 2026-08-24  
-**Neue Einträge:** 321  
-**Gesamt im Archiv:** 3284
+**Neue Einträge:** 315  
+**Gesamt im Archiv:** 3291
 
 ### Kantone (heutiger Lauf)
-- **Zürich**: 37
-- **Luzern**: 36
+- **Zürich**: 36
 - **Bern**: 36
-- **Aargau**: 35
+- **Luzern**: 35
 - **St. Gallen**: 34
-- **Solothurn**: 28
+- **Aargau**: 34
+- **Solothurn**: 27
 - **Basel-Landschaft**: 26
-- **Tessin**: 26
+- **Tessin**: 25
 - **Basel-Stadt**: 25
-- **Schweiz**: 23
-- **Wallis**: 4
-- **Genf**: 4
-- **Zug**: 2
+- **Schweiz**: 24
+- **Wallis**: 5
+- **Jura**: 2
+- **Graubünden**: 1
 - **Schaffhausen**: 1
 - **Schwyz**: 1
-- **Jura**: 1
-- **Graubünden**: 1
+- **Genf**: 1
 - **Freiburg**: 1
+- **Zug**: 1
