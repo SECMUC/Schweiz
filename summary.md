@@ -1,7 +1,7 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
-**Datum:** 2026-08-25  
-**Neue Einträge:** 322  
-**Gesamt im Archiv:** 3326
+**Datum:** 2026-08-26  
+**Neue Einträge:** 325  
+**Gesamt im Archiv:** 3329
 
 ### Kantone (heutiger Lauf)
 - **St. Gallen**: 36
@@ -12,14 +12,14 @@
 - **Basel-Landschaft**: 27
 - **Solothurn**: 27
 - **Basel-Stadt**: 25
+- **Schweiz**: 24
 - **Tessin**: 24
-- **Schweiz**: 23
+- **Uri**: 4
 - **Wallis**: 4
-- **Uri**: 3
+- **Thurgau**: 3
 - **Jura**: 2
 - **Schaffhausen**: 2
 - **Freiburg**: 2
-- **Thurgau**: 2
 - **Graubünden**: 2
 - **Glarus**: 1
 - **Obwalden**: 1
