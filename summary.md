@@ -8,7 +8,7 @@
 - **Solothurn**: 6
 - **Tessin**: 5
 - **Bern**: 4
+- **Zürich**: 3
 - **Basel-Stadt**: 3
-- **Zürich**: 2
-- **Zug**: 2
+- **Zug**: 1
 - **Basel-Landschaft**: 1
