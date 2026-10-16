@@ -1,14 +1,15 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
-**Datum:** 2026-10-15  
-**Neue Einträge:** 297  
+**Datum:** 2026-10-16  
+**Neue Einträge:** 301  
 **Gesamt im Archiv:** 5000
 
 ### Kantone (heutiger Lauf)
-- **Schweiz**: 274
-- **Solothurn**: 6
+- **Schweiz**: 279
+- **Solothurn**: 5
 - **Tessin**: 5
-- **Bern**: 4
 - **Zürich**: 3
+- **Bern**: 3
 - **Basel-Stadt**: 3
+- **Aargau**: 1
 - **Zug**: 1
 - **Basel-Landschaft**: 1
