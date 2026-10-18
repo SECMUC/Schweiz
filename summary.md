@@ -1,5 +1,5 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
-**Datum:** 2026-10-17  
+**Datum:** 2026-10-18  
 **Neue Einträge:** 309  
 **Gesamt im Archiv:** 5000
 
@@ -10,6 +10,6 @@
 - **Bern**: 3
 - **Basel-Stadt**: 3
 - **Zürich**: 2
-- **Aargau**: 1
+- **Freiburg**: 1
 - **Zug**: 1
 - **Basel-Landschaft**: 1
