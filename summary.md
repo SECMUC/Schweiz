@@ -4,8 +4,8 @@
 **Gesamt im Archiv:** 5000
 
 ### Kantone (heutiger Lauf)
-- **Schweiz**: 289
+- **Schweiz**: 288
+- **Zug**: 2
 - **Solothurn**: 2
 - **Freiburg**: 1
-- **Zug**: 1
 - **Basel-Stadt**: 1
