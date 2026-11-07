@@ -1,5 +1,5 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
-**Datum:** 2026-11-06  
+**Datum:** 2026-11-07  
 **Neue Einträge:** 272  
 **Gesamt im Archiv:** 5000
 
