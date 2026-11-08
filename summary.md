@@ -1,10 +1,10 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
 **Datum:** 2026-11-08  
-**Neue Einträge:** 271  
+**Neue Einträge:** 277  
 **Gesamt im Archiv:** 5000
 
 ### Kantone (heutiger Lauf)
-- **Schweiz**: 262
+- **Schweiz**: 268
 - **Freiburg**: 3
 - **Zug**: 2
 - **Zürich**: 2
