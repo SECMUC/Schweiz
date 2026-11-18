@@ -4,10 +4,11 @@
 **Gesamt im Archiv:** 5000
 
 ### Kantone (heutiger Lauf)
-- **Schweiz**: 253
-- **Solothurn**: 4
+- **Schweiz**: 252
+- **Solothurn**: 3
+- **Zürich**: 2
 - **Freiburg**: 2
-- **Uri**: 1
+- **Luzern**: 1
+- **Thurgau**: 1
 - **Zug**: 1
 - **Bern**: 1
-- **Zürich**: 1
