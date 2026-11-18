@@ -1,10 +1,10 @@
 ## 🇨🇭 Polizei-Monitor Schweiz
-**Datum:** 2026-11-17  
-**Neue Einträge:** 262  
+**Datum:** 2026-11-18  
+**Neue Einträge:** 263  
 **Gesamt im Archiv:** 5000
 
 ### Kantone (heutiger Lauf)
-- **Schweiz**: 252
+- **Schweiz**: 253
 - **Solothurn**: 4
 - **Freiburg**: 2
 - **Uri**: 1
